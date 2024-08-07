@@ -13,7 +13,7 @@
     "url": "https://github.com/rohitnayak00786/chat-app.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "rohit Nayak",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
