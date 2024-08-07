@@ -70,6 +70,7 @@ chat-app/
    cd chat-app
 
 2. Install dependencies:
+
     npm install
 
 3. Set up environment variables:
@@ -81,9 +82,11 @@ chat-app/
     Replace your_jwt_secret with a strong secret key.
 
 4. Start the MongoDB server if it's not already running:
+
     mongod
 
 5. Start the Node.js server:
+
     npm start
 
 6. The server will start on http://localhost:5000.
@@ -91,17 +94,21 @@ chat-app/
 Running Tests:
 
 To run the test suite, use the following command:
+
     npm test
 
-API Endpoints
+API Endpoints:
+
     Authentication
-        POST /api/auth/register: Register a new user.
-        POST /api/auth/login: Log in an existing user.
+
+    -    POST /api/auth/register: Register a new user.
+    -    POST /api/auth/login: Log in an existing user.
     Chat Rooms
-        POST /api/chat/room: Create a new chat room.
-        GET /api/chat/rooms: List all chat rooms for the authenticated user.
-        GET /api/chat/room/:roomId/users: List users in a chat room.
-        POST /api/chat/room/:name/join: Join a chat room.
-        POST /api/chat/room/:name/message: Send a message in a chat room.
-        POST /api/chat/room/:name/upload: Upload a file to a chat room.
-        GET /api/chat/room/:name/history: Get the chat history for a room.
+    
+    -    POST /api/chat/room: Create a new chat room.
+    -    GET /api/chat/rooms: List all chat rooms for the authenticated user.
+    -    GET /api/chat/room/:roomId/users: List users in a chat room.
+    -    POST /api/chat/room/:name/join: Join a chat room.
+    -    POST /api/chat/room/:name/message: Send a message in a chat room.
+    -    POST /api/chat/room/:name/upload: Upload a file to a chat room.
+    -    GET /api/chat/room/:name/history: Get the chat history for a room.
