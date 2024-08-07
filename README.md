@@ -66,12 +66,12 @@ chat-app/
 
 1. Clone the repository:
 
-   git clone https://github.com/yourusername/chat-app.git
-   cd chat-app
+   `git clone https://github.com/yourusername/chat-app.git`
+   `cd chat-app`
 
 2. Install dependencies:
 
-    npm install
+    `npm install`
 
 3. Set up environment variables:
     Create a .env file in the root directory with the following content
@@ -83,19 +83,19 @@ chat-app/
 
 4. Start the MongoDB server if it's not already running:
 
-    mongod
+    `mongod`
 
 5. Start the Node.js server:
 
-    npm start
+    `npm start`
 
-6. The server will start on http://localhost:5000.
+6. The server will start on `http://localhost:5000`.
 
 Running Tests:
 
 To run the test suite, use the following command:
 
-    npm test
+    `npm test`
 
 API Endpoints:
 
@@ -104,7 +104,7 @@ API Endpoints:
     -    POST /api/auth/register: Register a new user.
     -    POST /api/auth/login: Log in an existing user.
     Chat Rooms
-    
+
     -    POST /api/chat/room: Create a new chat room.
     -    GET /api/chat/rooms: List all chat rooms for the authenticated user.
     -    GET /api/chat/room/:roomId/users: List users in a chat room.
